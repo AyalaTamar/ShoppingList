@@ -1,5 +1,4 @@
 CREATE TABLE Categories (
     id INT IDENTITY(1,1) PRIMARY KEY,
-    name VARCHAR(255),
-	sum Int NOT NULL DEFAULT 0
+    name VARCHAR(255)
 );

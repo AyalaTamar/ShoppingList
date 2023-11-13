@@ -36,5 +36,17 @@ namespace ShoppingList.Controllers
         {
             await _CustomersItemService.AddOrUpdateItemForCustomerAsync(customerId, categoryId, itemName);
         }
+
+        //// PUT api/<CustomersItemController>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
+
+        //// DELETE api/<CustomersItemController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

@@ -21,5 +21,27 @@ namespace ShoppingList.Controllers
         {
             return await _CustomerService.GetAllCustomerAsync();
         }
+
+
+        //// GET api/<CostumerController>/5
+        //[HttpGet("{id}")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
+
+
+
+        //// PUT api/<CostumerController>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
+
+        //// DELETE api/<CostumerController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

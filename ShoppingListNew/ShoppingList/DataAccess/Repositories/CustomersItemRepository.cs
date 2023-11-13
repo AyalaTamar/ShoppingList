@@ -15,7 +15,7 @@ namespace DataAccess.Repositories
         {
             try
             {
-
+               
                 // Check if the item already exists in the product table
                 var item = _ShoppingContext.Items
                     .FirstOrDefault(i => i.Name == itemName);
@@ -73,7 +73,7 @@ namespace DataAccess.Repositories
             if (category != null)
             {
                 // Update the quantity
-                category.Sum += 1;
+                category.Sum += 1 ;
 
                 // Save changes to the database
                 await _ShoppingContext.SaveChangesAsync();
@@ -83,7 +83,7 @@ namespace DataAccess.Repositories
         {
             // Find the category by ID
             Category category = _ShoppingContext.Categories.FirstOrDefault(ci => ci.Id == categoryId);
-            if (category != null)
+            if (category!=null)
                 return category.Sum;
             else return 0;
         }
