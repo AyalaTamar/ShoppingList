@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d558bce0-9e9e-4029-b527-b9dc296bdeb8": {
+      "ProjectGuid": "d558bce0-9e9e-4029-b527-b9dc296bdeb8",
+      "DisplayName": "ShoppingList",
+      "ColorIndex": 0
+    },
+    "fce7958c-31e7-4405-8123-8fb216adbd81": {
+      "ProjectGuid": "fce7958c-31e7-4405-8123-8fb216adbd81",
+      "DisplayName": "BuisnessLogic",
+      "ColorIndex": 1
+    },
+    "9e949c5c-9c68-4e92-9c33-a825ceac031a": {
+      "ProjectGuid": "9e949c5c-9c68-4e92-9c33-a825ceac031a",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "38762512-8b99-4f8c-beb0-3b782a121d9c": {
+      "ProjectGuid": "38762512-8b99-4f8c-beb0-3b782a121d9c",
+      "DisplayName": "Repository",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
