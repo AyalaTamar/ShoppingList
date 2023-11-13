@@ -22,7 +22,7 @@ namespace Shopping_List.Controllers
             return await _ItemService.GetAllItemsAsync();
         }
 
-  
+
         [HttpPost]
         public async Task AddItemAsync(string itemName, string categoryName)
         {
@@ -34,22 +34,6 @@ namespace Shopping_List.Controllers
         {
             await _ItemService.DeleteItemByIdAsync(itemId);
         }
-        ////PUT api/<ItemsController>/5
-        ////[HttpPut("{id}")]
-        ////public void Put(int id, [FromBody] string value)
-        ////{
-        ////}
-
-
-        //// GET api/<ItemsController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-
-
 
     }
 }

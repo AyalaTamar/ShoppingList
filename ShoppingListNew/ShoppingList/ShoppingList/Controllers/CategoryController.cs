@@ -13,7 +13,7 @@ namespace ShoppingList.Controllers
         ICategoryService _CategoryService;
         public CategoryController(ICategoryService CategoryService)
         {
-            _CategoryService=CategoryService;
+            _CategoryService = CategoryService;
         }
         // GET: api/<CategoryController>
         [HttpGet]
@@ -27,26 +27,5 @@ namespace ShoppingList.Controllers
         {
             await _CategoryService.AddCategoryAsync(CategoryName);
         }
-
-        ////GET api/<CategoryController>/5
-        ////[HttpGet("{id}")]
-        ////public string Get(int id)
-        ////{
-        ////    return "value";
-        ////}
-
-
-
-        ////PUT api/<CategoryController>/5
-        ////[HttpPut("{id}")]
-        ////public void Put(int id, [FromBody] string value)
-        ////{
-        ////}
-
-        ////DELETE api/<CategoryController>/5
-        ////[HttpDelete("{id}")]
-        ////public void Delete(int id)
-        ////{
-        ////}
     }
 }
